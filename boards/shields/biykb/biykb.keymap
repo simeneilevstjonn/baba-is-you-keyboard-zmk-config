@@ -8,7 +8,7 @@
 
         default_layer {
             bindings = <
-                &kp UP_ARROW
+                &bt BT_CLR
                 &kp DOWN_ARROW
                 &kp LEFT_ARROW
                 &kp RIGHT_ARROW
