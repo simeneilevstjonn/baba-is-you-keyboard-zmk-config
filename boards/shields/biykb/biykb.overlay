@@ -2,7 +2,7 @@
     chosen {
         zmk,kscan = &kscan;
     };
-    
+
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
@@ -16,4 +16,4 @@
             , <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
     };
-};;
+};
