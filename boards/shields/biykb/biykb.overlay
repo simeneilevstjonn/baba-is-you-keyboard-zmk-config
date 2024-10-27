@@ -17,3 +17,7 @@
             <&gpio1 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
+
+&uart0 {
+	status = "disabled";
+};
