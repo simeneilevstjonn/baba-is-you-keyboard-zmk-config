@@ -8,13 +8,14 @@
 
         default_layer {
             bindings = <
-                &bt BT_CLR
+                &kp UP_ARROW
                 &kp DOWN_ARROW
                 &kp LEFT_ARROW
                 &kp RIGHT_ARROW
                 &kp Z
                 &kp SPACE
                 &kp R
+                &bt BT_CLR
             >;
         }; 
     };

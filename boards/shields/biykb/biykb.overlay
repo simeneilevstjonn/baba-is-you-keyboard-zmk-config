@@ -6,14 +6,14 @@
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
-        input-gpios
-            = <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio1 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio1 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio0 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio0 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            ;
+        input-gpios =
+            <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio1 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio0 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio0 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio1 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
